@@ -45,6 +45,11 @@ RUN apt update \
 	sudo \
 	libcap2-bin \
 	upx-ucl \
+	cmake \
+	qtbase5-dev \
+	qt5-qmake \
+	qttools5-dev-tools \
+	libqt5websockets5-dev \
 	&& pip install --upgrade jsonschema
 #
 # Copy over the client
