@@ -29,6 +29,7 @@ COPY . /app
 RUN rm -f /app/Havoc/client/Build && mkdir -p client/Build
 
 WORKDIR /app/Havoc
+RUN make ts-build
 RUN make client-build
 
 
